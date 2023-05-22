@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Johny-Wood.github.io/winoptiongame",
+  "homepage": "http://johny-wood.github.io/winoptiongame",
   "name": "winoptiongame",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
