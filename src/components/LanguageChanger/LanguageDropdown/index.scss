@@ -1,0 +1,22 @@
+.language-dropdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  &__list {
+    position: absolute;
+    display: none;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    height: 50px;
+    border-radius: 0px 0px 2px 2px;
+    background-color: #000000;
+
+    &--active {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
