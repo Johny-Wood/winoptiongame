@@ -1,3 +1,7 @@
 .burger-menu {
   width: 100%;
+
+  &__list {
+    display: none;
+  }
 }

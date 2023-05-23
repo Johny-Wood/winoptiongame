@@ -2,4 +2,10 @@
   display: flex;
   column-gap: 39px;
   height: 100%;
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+  }
 }
