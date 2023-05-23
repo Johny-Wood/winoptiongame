@@ -9,7 +9,6 @@ const UserProfileAvatar = () => {
     const getAvatar = (async () => {
       const response = await getUser();
 
-      console.warn("as");
       setAvatarImgSrc(response.userAvatar);
     })();
   }, []);
