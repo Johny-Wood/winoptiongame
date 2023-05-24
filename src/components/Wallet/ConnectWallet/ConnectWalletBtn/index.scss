@@ -8,6 +8,16 @@
   font-weight: 900;
   line-height: 1.2;
 
+  @media screen and (max-width: 980px) {
+    padding: 12px;
+    font-size: 20px;
+    height: fit-content;
+  }
+
+  @media screen and (max-width: 980px) {
+    padding: 8px;
+  }
+
   &__inside {
     display: block;
     position: relative;

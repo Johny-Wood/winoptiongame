@@ -1,12 +1,12 @@
 import React from "react";
 import ConnectWalletBtn from "./ConnectWalletBtn";
 
-const ConnectWallet = () => {
+const ConnectWallet = ({ handleConnect }) => {
   // Logic of connecting wallet
 
   return (
     <>
-      <ConnectWalletBtn />
+      <ConnectWalletBtn handleConnect={handleConnect} />
     </>
   );
 };

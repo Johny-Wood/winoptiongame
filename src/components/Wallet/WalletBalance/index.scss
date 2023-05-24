@@ -1,0 +1,89 @@
+.wallet-balance {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 23px 33px 18px 63px;
+  max-width: 908px;
+  width: 100%;
+  // border-radius: 86px;
+  background-image: url(@/assets/wallet.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: transparent;
+  font-size: 13px;
+  font-weight: 700;
+  color: #ffffff;
+
+  @media screen and (max-width: 1560px) {
+    padding-left: 33px;
+  }
+
+  // &::before {
+  //   content: "";
+  //   border-right: 45px solid #000000;
+  //   border-bottom: 190px solid transparent;
+  //   position: absolute;
+  //   left: -45px;
+  //   top: 0;
+  // }
+
+  // &::after {
+  //   content: "";
+  //   border-left: 45px solid #000000;
+  //   border-bottom: 190px solid transparent;
+  //   position: absolute;
+  //   right: -45px;
+  //   top: 0;
+  // }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 18px;
+
+    &--center {
+      width: 100%;
+      max-width: 438px;
+
+      @media screen and (max-width: 1560px) {
+        max-width: 326px;
+      }
+    }
+  }
+
+  &__balance {
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+    width: 100%;
+  }
+
+  &__currency-equivalent {
+    align-self: center;
+  }
+
+  &__currency {
+    font-size: 28px;
+    color: #f8ce74;
+    text-shadow: 1px 9px 4px rgba(0, 0, 0, 0.51);
+    -webkit-text-stroke: 1px #f5f5f5;
+
+    @media screen and (max-width: 1560px) {
+      font-size: 22px;
+    }
+
+    @media screen and (max-width: 1368px) {
+      font-size: 20px;
+    }
+  }
+
+  &__controls {
+    display: flex;
+    justify-content: center;
+    column-gap: 18px;
+    width: 100%;
+  }
+}
