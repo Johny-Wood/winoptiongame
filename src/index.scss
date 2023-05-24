@@ -10,6 +10,20 @@ button {
   cursor: pointer;
 }
 
+body {
+  position: relative;
+  background-color: #1f2125;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url(@/assets/shirma.svg);
+  }
+}
+
 /* :root { */
 /*   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
 /*   line-height: 1.5; */
