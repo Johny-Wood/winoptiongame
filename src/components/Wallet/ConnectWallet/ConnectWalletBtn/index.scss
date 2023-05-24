@@ -1,0 +1,29 @@
+.connect-wallet-btn {
+  padding: 18px;
+  width: 100%;
+  max-width: 482px;
+  background-color: rgba(255, 255, 255, 0.54);
+  border-radius: 101px;
+
+  &__inside {
+    display: block;
+    position: relative;
+    text-align: center;
+    background: linear-gradient(180deg, #f2d29b 0%, #f4b25d 100%);
+    padding: 11px;
+    border-radius: 66px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -2px;
+      bottom: -2px;
+      left: -2px;
+      right: -2px;
+      background: linear-gradient(to bottom, #fdfdfd, #fdfdfd, #162f31);
+      border-radius: 34px;
+      filter: drop-shadow(1px 23px 23px rgba(0, 0, 0, 0.83));
+      z-index: -1;
+    }
+  }
+}

@@ -1,10 +1,22 @@
 .header {
   display: flex;
   justify-content: space-between;
+  column-gap: 30px;
   padding: 16px 65px 0px 3px;
 
   &__logo {
+    margin-top: 9px;
     width: 100%;
     max-width: 350px;
+  }
+
+  &__wallet {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+  }
+
+  &__navigation {
+    margin-top: 31px;
   }
 }

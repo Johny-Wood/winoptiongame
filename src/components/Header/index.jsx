@@ -1,9 +1,8 @@
 import React from "react";
 import "./index.scss";
 import Logo from "../Logo";
-import LanguageChanger from "../LanguageChanger";
-import BurgerMenu from "../Navigation/BurgerMenu";
 import Navigation from "../Navigation";
+import Wallet from "../Wallet";
 
 const Header = () => {
   return (
@@ -11,7 +10,12 @@ const Header = () => {
       <div className="header__logo">
         <Logo />
       </div>
-      <Navigation />
+      <div className="header__wallet">
+        <Wallet />
+      </div>
+      <div className="header__navigation">
+        <Navigation />
+      </div>
     </header>
   );
 };
