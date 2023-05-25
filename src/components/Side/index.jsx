@@ -7,7 +7,9 @@ import GamersList from "./GamersList";
 const Side = ({ color }) => {
   const styles = {
     backgroundImage: clsx(
-      color === "green" ? "url(/side-green.svg)" : "url(/side-red.svg)"
+      color === "green"
+        ? "url(assets/side-green.svg)"
+        : "url(assets/side-red.svg)"
     ),
   };
   return (
