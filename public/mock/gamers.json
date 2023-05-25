@@ -1,0 +1,143 @@
+[
+  {
+    "userId": 11,
+    "userAvatar": "/src/assets/avatar.png",
+    "country": {
+      "title": "France",
+      "icon": "/src/assets/france.jpg"
+    },
+    "boost": {
+      "value": "x5",
+      "icon": "/src/assets/boost-x5.svg"
+    },
+    "award": {
+      "value": "Star",
+      "icon": "/src/assets/award-star.svg"
+    },
+    "bet": 300
+  },
+  {
+    "userId": 12,
+    "userAvatar": "/src/assets/avatar.png",
+    "country": {
+      "title": "France",
+      "icon": "/src/assets/france.jpg"
+    },
+    "boost": {
+      "value": "x5",
+      "icon": "/src/assets/boost-x5.svg"
+    },
+    "award": {
+      "value": "Star",
+      "icon": "/src/assets/award-star.svg"
+    },
+    "bet": 300
+  },
+  {
+    "userId": 13,
+    "userAvatar": "/src/assets/avatar.png",
+    "country": {
+      "title": "France",
+      "icon": "/src/assets/france.jpg"
+    },
+    "boost": null,
+    "award": null,
+    "bet": 300
+  },
+  {
+    "userId": 14,
+    "userAvatar": "/src/assets/avatar.png",
+    "country": {
+      "title": "France",
+      "icon": "/src/assets/france.jpg"
+    },
+    "boost": null,
+    "award": null,
+    "bet": 300
+  },
+  {
+    "userId": 15,
+    "userAvatar": "/src/assets/avatar.png",
+    "country": {
+      "title": "France",
+      "icon": "/src/assets/france.jpg"
+    },
+    "boost": {
+      "value": "x5",
+      "icon": "/src/assets/boost-x5.svg"
+    },
+    "award": {
+      "value": "Star",
+      "icon": "/src/assets/award-star.svg"
+    },
+    "bet": 300
+  },
+  {
+    "userId": 16,
+    "userAvatar": "/src/assets/avatar.png",
+    "country": {
+      "title": "France",
+      "icon": "/src/assets/france.jpg"
+    },
+    "boost": {
+      "value": "x5",
+      "icon": "/src/assets/boost-x5.svg"
+    },
+    "award": {
+      "value": "Star",
+      "icon": "/src/assets/award-star.svg"
+    },
+    "bet": 300
+  },
+  {
+    "userId": 17,
+    "userAvatar": "/src/assets/avatar.png",
+    "country": {
+      "title": "France",
+      "icon": "/src/assets/france.jpg"
+    },
+    "boost": {
+      "value": "x5",
+      "icon": "/src/assets/boost-x5.svg"
+    },
+    "award": {
+      "value": "Star",
+      "icon": "/src/assets/award-star.svg"
+    },
+    "bet": 300
+  },
+  {
+    "userId": 18,
+    "userAvatar": "/src/assets/avatar.png",
+    "country": {
+      "title": "France",
+      "icon": "/src/assets/france.jpg"
+    },
+    "boost": {
+      "value": "x5",
+      "icon": "/src/assets/boost-x5.svg"
+    },
+    "award": {
+      "value": "Star",
+      "icon": "/src/assets/award-star.svg"
+    },
+    "bet": 300
+  },
+  {
+    "userId": 19,
+    "userAvatar": "/src/assets/avatar.png",
+    "country": {
+      "title": "France",
+      "icon": "/src/assets/france.jpg"
+    },
+    "boost": {
+      "value": "x5",
+      "icon": "/src/assets/boost-x5.svg"
+    },
+    "award": {
+      "value": "Star",
+      "icon": "/src/assets/award-star.svg"
+    },
+    "bet": 300
+  }
+]

@@ -1,13 +1,13 @@
 import React from "react";
 import "./index.scss";
 
-const GamerAvatar = ({ countryIcon, boostIcon, awardIcon }) => {
+const GamerAvatar = ({ country, boost, award }) => {
   return (
     <>
       <span className="country">
         <img
-          src={countryIcon}
-          alt="Country icon"
+          src={country.icon}
+          alt={country.title}
           width={17}
           height={10}
           className="country__icon"
@@ -15,11 +15,19 @@ const GamerAvatar = ({ countryIcon, boostIcon, awardIcon }) => {
       </span>
 
       <span className="boost">
-        <img src={boostIcon} alt="Boost icon" className="boost__icon" />
+        <img
+          src={boost && boost.icon}
+          alt={award && boost.value}
+          className="boost__icon"
+        />
       </span>
 
       <span className="award">
-        <img src={awardIcon} alt="Award" className="award__img" />
+        <img
+          src={award && award.icon}
+          alt={award && award.value}
+          className="award__img"
+        />
       </span>
     </>
   );
