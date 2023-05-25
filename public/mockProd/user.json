@@ -1,4 +1,9 @@
 {
   "userId": 11,
-  "userAvatar": "/winoptiongame/assets/avatar.png"
+  "userAvatar": "/winoptiongame/assets/avatar.png",
+  "wallet": {
+    "number": "423423.......3434",
+    "TCurrencyBalance": "3222",
+    "WINGTCurrencyBalance": "000000000"
+  }
 }

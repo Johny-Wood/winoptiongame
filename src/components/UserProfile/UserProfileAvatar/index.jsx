@@ -8,7 +8,7 @@ const UserProfileAvatar = () => {
   return (
     <span className="user-profile-avatar">
       <img
-        src={user.user && user.user.userAvatar}
+        src={user.userAvatar}
         alt="Avatar"
         className="user-profile-avatar__img"
       />

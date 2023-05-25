@@ -1,14 +1,17 @@
 import React from "react";
 import "./index.scss";
+import { useSelector } from "react-redux";
 import TCurrency from "@/assets/T-currency.svg";
 import WTCurency from "@/assets/WT-currency.svg";
 import WalletButton from "../WalletButton";
 
 const WalletBalance = () => {
+  const wallet = useSelector((state) => state.user.wallet);
+
   return (
     <div className="wallet-balance">
       <div className="wallet-balance__container">
-        <span className="wallet-balance__acc-number">423423.......3434</span>
+        <span className="wallet-balance__acc-number">{wallet.number}</span>
         <div className="wallet-balance__balance">
           <img
             src={TCurrency}
@@ -16,7 +19,7 @@ const WalletBalance = () => {
             className="wallet-balance__T-currency-icon"
           />
           <span className="wallet-balance__T-currency-balance wallet-balance__currency">
-            3222
+            {wallet.TCurrencyBalance}
           </span>
         </div>
       </div>
@@ -38,7 +41,7 @@ const WalletBalance = () => {
             className="wallet-balance__WT-currency-icon"
           />
           <span className="wallet-balance__WT-currency-balance wallet-balance__currency">
-            000000000
+            {wallet.WINGTCurrencyBalance}
           </span>
         </div>
       </div>

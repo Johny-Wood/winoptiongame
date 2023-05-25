@@ -1,23 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
+import { useSelector } from "react-redux";
 import ConnectWallet from "./ConnectWallet";
 import WalletBalance from "./WalletBalance";
 
 const Wallet = () => {
-  const [walletConnected, setWalletConnected] = useState(false);
+  const walletConnected = useSelector((state) => state.user.wallet);
 
-  const handleConnectWallet = (value) => {
-    setWalletConnected(value);
-  };
-
-  return (
-    <>
-      {walletConnected ? (
-        <WalletBalance />
-      ) : (
-        <ConnectWallet handleConnect={handleConnectWallet} />
-      )}
-    </>
-  );
+  return <>{walletConnected?.number ? <WalletBalance /> : <ConnectWallet />}</>;
 };
 
 export default Wallet;
