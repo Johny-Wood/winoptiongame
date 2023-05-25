@@ -1,11 +1,12 @@
 import "./App.scss";
-import Header from "./components/Header";
+import Side from "./components/Side";
+import Layout from "./reusable/Layout";
 
 function App() {
   return (
-    <>
-      <Header />
-    </>
+    <Layout>
+      <Side color="green" />
+    </Layout>
   );
 }
 

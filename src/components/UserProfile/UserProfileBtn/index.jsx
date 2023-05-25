@@ -2,10 +2,10 @@ import React from "react";
 import "./index.scss";
 import UserProfileAvatar from "../UserProfileAvatar";
 
-const UserProfileBtn = () => {
+const UserProfileBtn = ({ avatar }) => {
   return (
     <button className="user-profile-btn">
-      <UserProfileAvatar />
+      <UserProfileAvatar avatar={avatar} />
     </button>
   );
 };

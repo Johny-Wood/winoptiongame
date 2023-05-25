@@ -5,6 +5,7 @@ import { setUser } from "../../store/slices/userSlice";
 import UserProfileBtn from "./UserProfileBtn";
 
 const UserProfile = () => {
+  const avatar = useSelector((state) => state.user.userAvatar);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -17,7 +18,7 @@ const UserProfile = () => {
 
   return (
     <>
-      <UserProfileBtn />
+      <UserProfileBtn avatar={avatar} />
     </>
   );
 };
