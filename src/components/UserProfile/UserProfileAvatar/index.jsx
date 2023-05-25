@@ -1,22 +1,14 @@
 import React, { useEffect, useState } from "react";
+import { useSelector } from "react-redux";
 import "./index.scss";
-import getUser from "../../../api/handlers/getUser";
 
 const UserProfileAvatar = () => {
-  const [avatarImgSrc, setAvatarImgSrc] = useState(null);
-
-  useEffect(() => {
-    const getAvatar = (async () => {
-      const response = await getUser();
-
-      setAvatarImgSrc(response.userAvatar);
-    })();
-  }, []);
+  const user = useSelector((state) => state.user);
 
   return (
     <span className="user-profile-avatar">
       <img
-        src={avatarImgSrc}
+        src={user.user && user.user.userAvatar}
         alt="Avatar"
         className="user-profile-avatar__img"
       />

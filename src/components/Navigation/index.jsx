@@ -2,7 +2,7 @@ import React from "react";
 import "./index.scss";
 import LanguageChanger from "../LanguageChanger";
 import BurgerMenu from "./BurgerMenu";
-import UserProfileBtn from "../UserProfile/UserProfileBtn";
+import UserProfile from "../UserProfile";
 
 const Navigation = () => {
   return (
@@ -10,7 +10,7 @@ const Navigation = () => {
       <LanguageChanger />
       <div className="navigation__menu">
         <BurgerMenu />
-        <UserProfileBtn />
+        <UserProfile />
       </div>
     </nav>
   );
