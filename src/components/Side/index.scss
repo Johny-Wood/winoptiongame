@@ -1,7 +1,36 @@
 .team-side {
-  padding: 148px 96px;
-  max-width: 377px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 394px;
   width: 100%;
+  min-height: 864px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+  height: auto;
+  z-index: 5;
+
+  &__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 32px;
+    max-width: 180px;
+  }
+
+  &__header {
+  }
+
+  &__gamers {
+  }
+
+  &__pul-btn {
+    position: absolute;
+    bottom: -63px;
+    left: -30px;
+    width: 100%;
+  }
 }

@@ -2,10 +2,16 @@ import { createSlice } from "@reduxjs/toolkit";
 
 export const gamersSlice = createSlice({
   name: "gamers",
-  initialState: [],
+  initialState: {
+    gamersUp: [],
+    gamersDown: [],
+  },
+  // initialState: [],
   reducers: {
     setGamers: (state, action) => {
-      state.push(...action.payload);
+      // state = action.payload;
+      state.gamersUp.push(...action.payload);
+      state.gamersDown.push(...action.payload);
     },
   },
 });

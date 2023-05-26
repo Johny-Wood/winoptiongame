@@ -6,7 +6,19 @@
   font-weight: 700;
   color: #ffffff;
 
+  &--down {
+    & .pul-size__icon {
+      transform: rotate(180deg);
+    }
+  }
+
   &__amount {
     font-size: 50px;
+  }
+
+  &__for {
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
   }
 }

@@ -1,0 +1,33 @@
+.pul-button {
+  position: relative;
+  padding: 17px 0 9px;
+  min-width: 232px;
+  background-image: linear-gradient(180deg, #c8ffed 0%, #6be9c0 100%);
+  box-shadow: 0px 0px 34px #16f3ac;
+  border-radius: 33px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -7px;
+    bottom: -7px;
+    left: -7px;
+    right: -7px;
+    background: linear-gradient(to bottom, #63d6b1, #355933);
+    border-radius: 34px;
+    filter: drop-shadow(1px 23px 23px rgba(0, 0, 0, 0.83));
+    z-index: -1;
+  }
+
+  &--down {
+    background: linear-gradient(180deg, #ff5c00 0%, #943427 100%);
+
+    &::before {
+      background: linear-gradient(to bottom, #ff5c00, #ff8442, #ffffff);
+    }
+
+    & .pul-button__icon {
+      transform: rotate(180deg);
+    }
+  }
+}

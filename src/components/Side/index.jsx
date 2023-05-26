@@ -3,22 +3,32 @@ import "./index.scss";
 import clsx from "clsx";
 import PulSize from "./PulSize";
 import GamersList from "./GamersList";
+import PulPayout from "./PulPayout";
+import PulButton from "./PulButton";
 
-const Side = ({ color }) => {
+const Side = ({ direction, gamers }) => {
   const styles = {
     backgroundImage: clsx(
-      color === "green"
+      direction === "up"
         ? "url(assets/side-green.svg)"
         : "url(assets/side-red.svg)"
     ),
   };
   return (
     <div className="team-side" style={styles}>
-      <div className="team-side__header">
-        <PulSize direction="up" />
-      </div>
-      <div className="team-side__gamers">
-        <GamersList />
+      <div className="team-side__container">
+        <div className="team-side__header">
+          <PulSize direction={direction} />
+        </div>
+        <div className="team-side__gamers">
+          <GamersList gamers={gamers} />
+        </div>
+        <div className="team-side__footer">
+          <PulPayout direction={direction} />
+          <div className="team-side__pul-btn">
+            <PulButton direction={direction} />
+          </div>
+        </div>
       </div>
     </div>
   );

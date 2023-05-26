@@ -16,6 +16,7 @@ const PulSize = ({ direction }) => {
         Pul
         {direction === "up" && (
           <svg
+            className="pul-size__icon"
             width="17"
             height="21"
             viewBox="0 0 17 21"
@@ -60,6 +61,7 @@ const PulSize = ({ direction }) => {
         )}
         {direction === "down" && (
           <svg
+            className="pul-size__icon"
             width="17"
             height="21"
             viewBox="0 0 17 21"

@@ -1,0 +1,22 @@
+.pul-payout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+
+  &--down {
+    & .pul-payout__percentage {
+      color: #e4520a;
+    }
+  }
+
+  &__title {
+    font-size: 21px;
+    color: #ffffff;
+  }
+
+  &__percentage {
+    font-size: 57px;
+    color: #67e1ba;
+  }
+}
