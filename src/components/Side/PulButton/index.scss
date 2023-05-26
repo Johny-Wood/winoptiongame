@@ -10,11 +10,6 @@
     min-width: 180px;
   }
 
-  @media screen and (max-width: 1480px) {
-    padding: 5px 0 3px;
-    min-width: 90px;
-  }
-
   &::before {
     content: "";
     position: absolute;
@@ -27,7 +22,7 @@
     filter: drop-shadow(1px 23px 23px rgba(0, 0, 0, 0.83));
     z-index: -1;
 
-    @media screen and (max-width: 1480px) {
+    @media screen and (max-width: 1580px) {
       top: -3px;
       bottom: -3px;
       left: -3px;

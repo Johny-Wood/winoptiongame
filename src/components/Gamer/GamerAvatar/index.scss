@@ -18,19 +18,19 @@
   width: 17px;
   height: 10px;
 
-  @media screen and (max-width: 1480px) {
-    top: -4px;
-    right: -6px;
-    height: 9px;
-    width: 15px;
-  }
+  // @media screen and (max-width: 1480px) {
+  //   top: -4px;
+  //   right: -6px;
+  //   height: 9px;
+  //   width: 15px;
+  // }
 
-  &__icon {
-    @media screen and (max-width: 1480px) {
-      height: 9px;
-      width: 15px;
-    }
-  }
+  // &__icon {
+  //   @media screen and (max-width: 1480px) {
+  //     height: 9px;
+  //     width: 15px;
+  //   }
+  // }
 }
 
 .boost {
@@ -38,36 +38,36 @@
   width: 20px;
   height: 20px;
 
-  @media screen and (max-width: 1480px) {
-    top: 7px;
-    right: -2px;
-    width: 10px;
-    height: 10px;
-  }
+  // @media screen and (max-width: 1480px) {
+  //   top: 7px;
+  //   right: -2px;
+  //   width: 10px;
+  //   height: 10px;
+  // }
 
-  &__icon {
-    @media screen and (max-width: 1480px) {
-      width: 10px;
-      height: 10px;
-    }
-  }
+  // &__icon {
+  //   @media screen and (max-width: 1480px) {
+  //     width: 10px;
+  //     height: 10px;
+  //   }
+  // }
 }
 
 .award {
   bottom: 15px;
   left: 13px;
 
-  @media screen and (max-width: 1480px) {
-    left: 6px;
-    bottom: 24px;
-    width: 12px;
-    height: 13px;
-  }
+  // @media screen and (max-width: 1480px) {
+  //   left: 6px;
+  //   bottom: 24px;
+  //   width: 12px;
+  //   height: 13px;
+  // }
 
-  &__img {
-    @media screen and (max-width: 1480px) {
-      width: 12px;
-      height: 13px;
-    }
-  }
+  // &__img {
+  //   @media screen and (max-width: 1480px) {
+  //     width: 12px;
+  //     height: 13px;
+  //   }
+  // }
 }

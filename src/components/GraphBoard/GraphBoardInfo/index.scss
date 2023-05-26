@@ -1,12 +1,12 @@
 .graph-board-info {
   display: flex;
   justify-content: space-between;
-  column-gap: 186px;
+  column-gap: 10px;
 
   &__container {
     display: flex;
     column-gap: 52px;
-    white-space: nowrap;
+    text-align: center;
   }
 
   &__content {

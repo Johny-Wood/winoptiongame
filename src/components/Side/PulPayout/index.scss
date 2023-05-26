@@ -13,18 +13,14 @@
   &__title {
     font-size: 21px;
     color: #ffffff;
-
-    @media screen and (max-width: 1480px) {
-      font-size: 14px;
-    }
   }
 
   &__percentage {
     font-size: 57px;
     color: #67e1ba;
 
-    @media screen and (max-width: 1480px) {
-      font-size: 20px;
+    @media screen and (max-width: 1580px) {
+      font-size: 35px;
     }
   }
 }
