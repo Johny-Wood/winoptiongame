@@ -6,6 +6,13 @@
   font-weight: 700;
   color: #ffffff;
 
+  @media screen and (max-width: 1580px) {
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 1480px) {
+    font-size: 14px;
+  }
   &--down {
     & .pul-size__icon {
       transform: rotate(180deg);
@@ -14,6 +21,14 @@
 
   &__amount {
     font-size: 50px;
+
+    @media screen and (max-width: 1580px) {
+      font-size: 40px;
+    }
+
+    @media screen and (max-width: 1480px) {
+      font-size: 22px;
+    }
   }
 
   &__for {

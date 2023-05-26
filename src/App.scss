@@ -1,7 +1,19 @@
 .container {
-  display: flex;
-  justify-content: space-between;
+  // display: grid;
+  // grid-template-columns: 1fr auto 1fr;
+  // display: flex;
+  // justify-content: space-between;
   padding: 0px 80px;
+
+  display: grid;
+  grid-template-columns: minmax(151px, 394px) minmax(500px, 700px) minmax(
+      151px,
+      394px
+    );
+  grid-template-rows: calc(100vh - 132px);
+  padding: 0px 80px;
+  justify-content: space-between;
+  align-content: center;
 }
 
 .side {

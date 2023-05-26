@@ -6,4 +6,24 @@
   row-gap: 11px;
   font-size: 17px;
   color: #ffffff;
+
+  &__bet-amount {
+    @media screen and (max-width: 1480px) {
+      font-size: 14px;
+    }
+  }
+
+  & .user-profile-avatar {
+    @media screen and (max-width: 1480px) {
+      width: 24px;
+      height: 24px;
+    }
+
+    &__img {
+      @media screen and (max-width: 1480px) {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
 }

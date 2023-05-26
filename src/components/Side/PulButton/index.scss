@@ -6,6 +6,15 @@
   box-shadow: 0px 0px 34px #16f3ac;
   border-radius: 33px;
 
+  @media screen and (max-width: 1580px) {
+    min-width: 180px;
+  }
+
+  @media screen and (max-width: 1480px) {
+    padding: 5px 0 3px;
+    min-width: 90px;
+  }
+
   &::before {
     content: "";
     position: absolute;
@@ -17,6 +26,13 @@
     border-radius: 34px;
     filter: drop-shadow(1px 23px 23px rgba(0, 0, 0, 0.83));
     z-index: -1;
+
+    @media screen and (max-width: 1480px) {
+      top: -3px;
+      bottom: -3px;
+      left: -3px;
+      right: -3px;
+    }
   }
 
   &--down {
