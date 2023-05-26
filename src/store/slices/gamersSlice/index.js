@@ -6,7 +6,6 @@ export const gamersSlice = createSlice({
     gamersUp: [],
     gamersDown: [],
   },
-  // initialState: [],
   reducers: {
     setGamers: (state, action) => {
       // state = action.payload;

@@ -5,6 +5,7 @@ import Layout from "./reusable/Layout";
 import getGamers from "./api/handlers/getGamers";
 import { setGamers } from "./store/slices/gamersSlice";
 import { useEffect } from "react";
+import GraphBoard from "./components/GraphBoard";
 
 function App() {
   const gamersUp = useSelector((state) => state.gamers.gamersUp);
@@ -25,7 +26,9 @@ function App() {
         <div className="side">
           <Side direction="up" gamers={gamersUp} />
         </div>
-        <div className="graph"></div>
+        <div className="graph-board">
+          <GraphBoard />
+        </div>
         <div className="side">
           <Side direction="down" gamers={gamersDown} />
         </div>

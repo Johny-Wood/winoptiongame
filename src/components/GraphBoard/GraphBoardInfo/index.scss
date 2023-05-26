@@ -1,0 +1,40 @@
+.graph-board-info {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 186px;
+
+  &__container {
+    display: flex;
+    column-gap: 52px;
+    white-space: nowrap;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1px;
+    color: #ffffff;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.28);
+  }
+
+  &__amount {
+    font-size: 43px;
+    text-shadow: 1px 0px 0px #f5f5f5;
+    -webkit-text-stroke: 1px #f5f5f5;
+
+    &--green,
+    &--red {
+      color: #67e1ba;
+      text-shadow: 1px 0px 0px #535353;
+      -webkit-text-stroke: 1px #535353;
+    }
+
+    &--red {
+      color: #e4520a;
+    }
+  }
+}
