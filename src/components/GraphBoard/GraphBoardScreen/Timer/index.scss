@@ -1,0 +1,30 @@
+.game-timer {
+  max-width: 198px;
+  width: 100%;
+  max-height: 198px;
+  border-radius: 9999px;
+  background-image: url("/assets/timer-bg.svg");
+  background-size: cover;
+  background-position: center center;
+  transform: translate(27%, -70%);
+  box-shadow: 0px -5px 10px rgba(240, 228, 185, 0.25);
+  font-size: 43px;
+  font-weight: 100;
+  color: #f8ce74;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 53px 66px;
+  }
+
+  &__time-left {
+    font-weight: 700;
+    text-shadow: 1px 9px 4px rgba(0, 0, 0, 0.51);
+  }
+
+  &__units {
+    text-shadow: 1px 9px 4px rgba(0, 0, 0, 0.51);
+  }
+}

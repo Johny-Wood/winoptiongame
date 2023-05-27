@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
 import "./index.scss";
-import GraphBoardInfo from "./GraphBoardInfo";
 import { useDispatch, useSelector } from "react-redux";
 import { setCurrentInvest } from "../../store/slices/investSlice";
+import GraphBoardInfo from "./GraphBoardInfo";
+import GraphBoardShape from "./GraphBoardShape";
+import GraphBoardScreen from "./GraphBoardScreen";
 
 const GraphBoard = () => {
   const coefficientUp = useSelector((state) => state.gameSession.coefficientUp);
@@ -20,11 +22,19 @@ const GraphBoard = () => {
 
   return (
     <div className="graph-board">
-      <GraphBoardInfo
-        coefficientUp={coefficientUp}
-        coefficientDown={coefficientDown}
-        invest={invest}
-      />
+      <div className="graph-board__header">
+        <GraphBoardInfo
+          coefficientUp={coefficientUp}
+          coefficientDown={coefficientDown}
+          invest={invest}
+        />
+      </div>
+      <div className="graph-board__shape">
+        <GraphBoardShape />
+      </div>
+      <div className="graph-board__screen">
+        <GraphBoardScreen />
+      </div>
     </div>
   );
 };

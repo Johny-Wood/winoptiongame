@@ -1,0 +1,20 @@
+.graph-board-screen {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 10px 100px 31px;
+  }
+
+  &__graph-time-set {
+    display: flex;
+    column-gap: 18px;
+  }
+
+  &__results-links {
+    display: flex;
+    column-gap: 10px;
+    max-width: 375px;
+    width: 100%;
+  }
+}

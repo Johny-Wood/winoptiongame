@@ -28,7 +28,7 @@ function App() {
         <div className="side">
           <Side direction="up" gamers={gamersUp} />
         </div>
-        <div className="graph-board">
+        <div className="board">
           <GraphBoard />
         </div>
         <div className="side">

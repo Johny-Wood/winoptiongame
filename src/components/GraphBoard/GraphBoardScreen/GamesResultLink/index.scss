@@ -1,0 +1,28 @@
+.games-result-link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+  max-width: 184px;
+  width: 100%;
+  padding: 11px;
+  border-radius: 42px;
+  background-color: #e5ebfb;
+  box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.25);
+  color: #331b0a;
+  text-decoration: none;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    bottom: -4px;
+    left: -4px;
+    right: -4px;
+    background: linear-gradient(to bottom, #fdfdfd, #fdfdfd, #162f31);
+    border-radius: 34px;
+    filter: drop-shadow(1px 23px 23px rgba(0, 0, 0, 0.83));
+    z-index: -1;
+  }
+}
