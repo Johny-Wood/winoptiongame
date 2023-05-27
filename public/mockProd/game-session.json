@@ -1,0 +1,291 @@
+{
+  "id": "000011",
+  "coefficientUp": 1.743,
+  "coefficientDown": 1.743,
+  "gamersUp": [
+    {
+      "userId": 11,
+      "userAvatar": "/winoptiongame/assets/avatar.png",
+      "country": {
+        "title": "France",
+        "icon": "/winoptiongame/assets/france.jpg"
+      },
+      "boost": {
+        "value": "x5",
+        "icon": "/winoptiongame/assets/boost-x5.svg"
+      },
+      "award": {
+        "value": "Star",
+        "icon": "/winoptiongame/assets/award-star.svg"
+      },
+      "bet": 300
+    },
+    {
+      "userId": 12,
+      "userAvatar": "/winoptiongame/assets/avatar.png",
+      "country": {
+        "title": "France",
+        "icon": "/winoptiongame/assets/france.jpg"
+      },
+      "boost": {
+        "value": "x5",
+        "icon": "/winoptiongame/assets/boost-x5.svg"
+      },
+      "award": {
+        "value": "Star",
+        "icon": "/winoptiongame/assets/award-star.svg"
+      },
+      "bet": 300
+    },
+    {
+      "userId": 13,
+      "userAvatar": "/winoptiongame/assets/avatar.png",
+      "country": {
+        "title": "France",
+        "icon": "/winoptiongame/assets/france.jpg"
+      },
+      "boost": null,
+      "award": null,
+      "bet": 300
+    },
+    {
+      "userId": 14,
+      "userAvatar": "/winoptiongame/assets/avatar.png",
+      "country": {
+        "title": "France",
+        "icon": "/winoptiongame/assets/france.jpg"
+      },
+      "boost": null,
+      "award": null,
+      "bet": 300
+    },
+    {
+      "userId": 15,
+      "userAvatar": "/winoptiongame/assets/avatar.png",
+      "country": {
+        "title": "France",
+        "icon": "/winoptiongame/assets/france.jpg"
+      },
+      "boost": {
+        "value": "x5",
+        "icon": "/winoptiongame/assets/boost-x5.svg"
+      },
+      "award": {
+        "value": "Star",
+        "icon": "/winoptiongame/assets/award-star.svg"
+      },
+      "bet": 300
+    },
+    {
+      "userId": 16,
+      "userAvatar": "/winoptiongame/assets/avatar.png",
+      "country": {
+        "title": "France",
+        "icon": "/winoptiongame/assets/france.jpg"
+      },
+      "boost": {
+        "value": "x5",
+        "icon": "/winoptiongame/assets/boost-x5.svg"
+      },
+      "award": {
+        "value": "Star",
+        "icon": "/winoptiongame/assets/award-star.svg"
+      },
+      "bet": 300
+    },
+    {
+      "userId": 17,
+      "userAvatar": "/winoptiongame/assets/avatar.png",
+      "country": {
+        "title": "France",
+        "icon": "/winoptiongame/assets/france.jpg"
+      },
+      "boost": {
+        "value": "x5",
+        "icon": "/winoptiongame/assets/boost-x5.svg"
+      },
+      "award": {
+        "value": "Star",
+        "icon": "/winoptiongame/assets/award-star.svg"
+      },
+      "bet": 300
+    },
+    {
+      "userId": 18,
+      "userAvatar": "/winoptiongame/assets/avatar.png",
+      "country": {
+        "title": "France",
+        "icon": "/winoptiongame/assets/france.jpg"
+      },
+      "boost": {
+        "value": "x5",
+        "icon": "/winoptiongame/assets/boost-x5.svg"
+      },
+      "award": {
+        "value": "Star",
+        "icon": "/winoptiongame/assets/award-star.svg"
+      },
+      "bet": 300
+    },
+    {
+      "userId": 19,
+      "userAvatar": "/winoptiongame/assets/avatar.png",
+      "country": {
+        "title": "France",
+        "icon": "/winoptiongame/assets/france.jpg"
+      },
+      "boost": {
+        "value": "x5",
+        "icon": "/winoptiongame/assets/boost-x5.svg"
+      },
+      "award": {
+        "value": "Star",
+        "icon": "/winoptiongame/assets/award-star.svg"
+      },
+      "bet": 300
+    }
+  ],
+  "gamersDown": [
+    {
+      "userId": 11,
+      "userAvatar": "/winoptiongame/assets/avatar.png",
+      "country": {
+        "title": "France",
+        "icon": "/winoptiongame/assets/france.jpg"
+      },
+      "boost": {
+        "value": "x5",
+        "icon": "/winoptiongame/assets/boost-x5.svg"
+      },
+      "award": {
+        "value": "Star",
+        "icon": "/winoptiongame/assets/award-star.svg"
+      },
+      "bet": 300
+    },
+    {
+      "userId": 12,
+      "userAvatar": "/winoptiongame/assets/avatar.png",
+      "country": {
+        "title": "France",
+        "icon": "/winoptiongame/assets/france.jpg"
+      },
+      "boost": {
+        "value": "x5",
+        "icon": "/winoptiongame/assets/boost-x5.svg"
+      },
+      "award": {
+        "value": "Star",
+        "icon": "/winoptiongame/assets/award-star.svg"
+      },
+      "bet": 300
+    },
+    {
+      "userId": 13,
+      "userAvatar": "/winoptiongame/assets/avatar.png",
+      "country": {
+        "title": "France",
+        "icon": "/winoptiongame/assets/france.jpg"
+      },
+      "boost": null,
+      "award": null,
+      "bet": 300
+    },
+    {
+      "userId": 14,
+      "userAvatar": "/winoptiongame/assets/avatar.png",
+      "country": {
+        "title": "France",
+        "icon": "/winoptiongame/assets/france.jpg"
+      },
+      "boost": null,
+      "award": null,
+      "bet": 300
+    },
+    {
+      "userId": 15,
+      "userAvatar": "/winoptiongame/assets/avatar.png",
+      "country": {
+        "title": "France",
+        "icon": "/winoptiongame/assets/france.jpg"
+      },
+      "boost": {
+        "value": "x5",
+        "icon": "/winoptiongame/assets/boost-x5.svg"
+      },
+      "award": {
+        "value": "Star",
+        "icon": "/winoptiongame/assets/award-star.svg"
+      },
+      "bet": 300
+    },
+    {
+      "userId": 16,
+      "userAvatar": "/winoptiongame/assets/avatar.png",
+      "country": {
+        "title": "France",
+        "icon": "/winoptiongame/assets/france.jpg"
+      },
+      "boost": {
+        "value": "x5",
+        "icon": "/winoptiongame/assets/boost-x5.svg"
+      },
+      "award": {
+        "value": "Star",
+        "icon": "/winoptiongame/assets/award-star.svg"
+      },
+      "bet": 300
+    },
+    {
+      "userId": 17,
+      "userAvatar": "/winoptiongame/assets/avatar.png",
+      "country": {
+        "title": "France",
+        "icon": "/winoptiongame/assets/france.jpg"
+      },
+      "boost": {
+        "value": "x5",
+        "icon": "/winoptiongame/assets/boost-x5.svg"
+      },
+      "award": {
+        "value": "Star",
+        "icon": "/winoptiongame/assets/award-star.svg"
+      },
+      "bet": 300
+    },
+    {
+      "userId": 18,
+      "userAvatar": "/winoptiongame/assets/avatar.png",
+      "country": {
+        "title": "France",
+        "icon": "/winoptiongame/assets/france.jpg"
+      },
+      "boost": {
+        "value": "x5",
+        "icon": "/winoptiongame/assets/boost-x5.svg"
+      },
+      "award": {
+        "value": "Star",
+        "icon": "/winoptiongame/assets/award-star.svg"
+      },
+      "bet": 300
+    },
+    {
+      "userId": 19,
+      "userAvatar": "/winoptiongame/assets/avatar.png",
+      "country": {
+        "title": "France",
+        "icon": "/winoptiongame/assets/france.jpg"
+      },
+      "boost": {
+        "value": "x5",
+        "icon": "/winoptiongame/assets/boost-x5.svg"
+      },
+      "award": {
+        "value": "Star",
+        "icon": "/winoptiongame/assets/award-star.svg"
+      },
+      "bet": 300
+    }
+  ]
+}
