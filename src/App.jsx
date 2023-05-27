@@ -1,22 +1,24 @@
+import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import "./App.scss";
 import Side from "./components/Side";
 import Layout from "./reusable/Layout";
-import getGamers from "./api/handlers/getGamers";
-import { setGamers } from "./store/slices/gamersSlice";
-import { useEffect } from "react";
 import GraphBoard from "./components/GraphBoard";
+import getGameSession from "./api/handlers/getGameSessin";
+import { setGameSession } from "./store/slices/gameSessionSlice";
+// import getGamers from "./api/handlers/getGamers";
+// import { setGamers } from "./store/slices/gamersSlice";
 
 function App() {
-  const gamersUp = useSelector((state) => state.gamers.gamersUp);
-  const gamersDown = useSelector((state) => state.gamers.gamersDown);
+  const gamersUp = useSelector((state) => state.gameSession.gamersUp);
+  const gamersDown = useSelector((state) => state.gameSession.gamersDown);
   const dispatch = useDispatch();
 
   useEffect(() => {
     const requestGamers = (async () => {
-      const response = await getGamers();
+      const response = await getGameSession();
 
-      dispatch(setGamers(response));
+      dispatch(setGameSession(response));
     })();
   }, []);
 
