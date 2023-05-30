@@ -1,9 +1,10 @@
 import React from "react";
 import "./index.scss";
+import screenBg from "@/assets/screen-bg.svg";
 
 const GraphBoardShape = () => {
   return (
-    <img src="/assets/screen-bg.svg" alt="" className="graph-board-shape" />
+    <img src={screenBg} alt="" className="graph-board-shape" />
     // {/* <div */}
     // {/*   className="graph-board-shape" */}
     // {/*   style={{ backgroundImage: "url(/assets/screen-bg.svg)" }} */}
