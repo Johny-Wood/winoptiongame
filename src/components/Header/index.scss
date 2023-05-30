@@ -5,6 +5,11 @@
   padding: 16px 65px 0px 3px;
   height: 132px;
 
+  @media screen and (max-width: 1440px) {
+    padding: 16px 20px;
+    height: 108px;
+  }
+
   @media screen and (max-width: 980px) {
     padding-right: 3px;
   }
@@ -13,6 +18,11 @@
     margin-top: 9px;
     width: 100%;
     max-width: 350px;
+
+    @media screen and (max-width: 1440px) {
+      margin-top: 0;
+      max-width: 275px;
+    }
   }
 
   &__wallet {
@@ -27,5 +37,9 @@
 
   &__navigation {
     margin-top: 31px;
+
+    @media screen and (max-width: 1440px) {
+      margin-top: 0;
+    }
   }
 }

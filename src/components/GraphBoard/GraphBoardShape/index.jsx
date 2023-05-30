@@ -3,10 +3,11 @@ import "./index.scss";
 
 const GraphBoardShape = () => {
   return (
-    <div
-      className="graph-board-shape"
-      style={{ backgroundImage: "url(/assets/screen-bg.svg)" }}
-    ></div>
+    <img src="/assets/screen-bg.svg" alt="" className="graph-board-shape" />
+    // {/* <div */}
+    // {/*   className="graph-board-shape" */}
+    // {/*   style={{ backgroundImage: "url(/assets/screen-bg.svg)" }} */}
+    // {/* ></div> */}
   );
 };
 

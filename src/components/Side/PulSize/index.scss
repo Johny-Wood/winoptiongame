@@ -10,6 +10,14 @@
     font-size: 20px;
   }
 
+  @media screen and (max-width: 1360px) {
+    font-size: 16px;
+  }
+
+  @media screen and (max-height: 980px) {
+    font-size: 20px;
+  }
+
   &--down {
     & .pul-size__icon {
       transform: rotate(180deg);
@@ -21,6 +29,17 @@
 
     @media screen and (max-width: 1580px) {
       font-size: 40px;
+    }
+
+    @media screen and (max-width: 1360px) {
+      font-size: 30px !important;
+    }
+    @media screen and (max-height: 980px) {
+      font-size: 45px;
+    }
+
+    @media screen and (max-width: 1920px) and (max-height: 840px) {
+      font-size: 35px;
     }
   }
 

@@ -10,6 +10,16 @@
     min-width: 180px;
   }
 
+  @media screen and (max-width: 1360px) {
+    padding: 5px !important;
+    min-width: 150px !important;
+  }
+
+  @media screen and (max-height: 840px) and (max-width: 1920px) {
+    padding: 7px 0 9px;
+    min-width: 180px;
+  }
+
   &::before {
     content: "";
     position: absolute;
@@ -27,6 +37,13 @@
       bottom: -3px;
       left: -3px;
       right: -3px;
+    }
+
+    @media screen and (max-height: 840px) {
+      top: -2px;
+      bottom: -2px;
+      left: -2px;
+      right: -2px;
     }
   }
 

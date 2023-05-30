@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.scss";
+import Timer from "./Timer";
 
 const GraphBoardInfo = ({ invest, coefficientUp, coefficientDown }) => {
   return (
@@ -16,6 +17,10 @@ const GraphBoardInfo = ({ invest, coefficientUp, coefficientDown }) => {
             {invest && invest * coefficientUp}
           </span>
         </div>
+      </div>
+
+      <div className="graph-board-info__container graph-board-info__timer">
+        <Timer />
       </div>
 
       <div className="graph-board-info__container">

@@ -2,6 +2,11 @@
   max-width: 350px;
   width: 100%;
 
+  @media screen and (max-width: 1440px) {
+    max-width: 275px;
+    max-height: 50px;
+  }
+
   &__container {
     display: flex;
     flex-direction: column;
@@ -12,6 +17,12 @@
     display: block;
     margin-bottom: 14px;
     object-fit: cover;
+
+    @media screen and (max-width: 1440px) {
+      margin-bottom: 0;
+      height: 45px;
+      object-fit: contain;
+    }
   }
 
   &__underline {
@@ -28,5 +39,12 @@
       #a3a3a3 70.27%,
       rgba(125, 126, 128, 0) 100%
     );
+  }
+
+  &__time-to-play-img {
+    @media screen and (max-width: 1440px) {
+      height: 30px;
+      object-fit: contain;
+    }
   }
 }

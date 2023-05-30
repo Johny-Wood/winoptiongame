@@ -4,9 +4,19 @@
   column-gap: 10px;
 
   &__container {
+    position: relative;
     display: flex;
     column-gap: 52px;
     text-align: center;
+    width: 100%;
+
+    @media screen and (max-width: 1360px) {
+      column-gap: 20px;
+    }
+  }
+
+  &__timer {
+    max-width: 10.8vw;
   }
 
   &__content {
@@ -19,6 +29,10 @@
   &__title {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.28);
+
+    @media screen and (max-width: 1440px) {
+      font-size: 12px;
+    }
   }
 
   &__amount {
@@ -26,11 +40,19 @@
     text-shadow: 1px 0px 0px #f5f5f5;
     -webkit-text-stroke: 1px #f5f5f5;
 
+    @media screen and (max-width: 1440px) {
+      font-size: 33px;
+    }
+
     &--green,
     &--red {
       color: #67e1ba;
       text-shadow: 1px 0px 0px #535353;
       -webkit-text-stroke: 1px #535353;
+
+      @media screen and (max-width: 1440px) {
+        font-size: 33px;
+      }
     }
 
     &--red {

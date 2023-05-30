@@ -1,9 +1,27 @@
 .graph-board-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px 10px 0px 31px;
+  height: 100%;
+
+  &__container {
+    flex: 1;
+  }
+
+  &__graph {
+    max-height: 420px;
+  }
+
+  &__make-bet {
+    max-height: 74px;
+  }
+
   &__header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0px 10px 100px 31px;
+    max-height: 51px;
   }
 
   &__graph-time-set {

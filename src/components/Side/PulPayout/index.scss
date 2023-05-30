@@ -13,6 +13,14 @@
   &__title {
     font-size: 21px;
     color: #ffffff;
+
+    @media screen and (max-width: 1360px) {
+      font-size: 16px !important;
+    }
+
+    @media screen and (max-height: 980px) and (max-width: 1920px) {
+      font-size: 20px;
+    }
   }
 
   &__percentage {
@@ -21,6 +29,18 @@
 
     @media screen and (max-width: 1580px) {
       font-size: 35px;
+    }
+
+    @media screen and (max-width: 1360px) {
+      font-size: 27px !important;
+    }
+
+    @media screen and (max-height: 980px) and (max-width: 1920px) {
+      font-size: 47px;
+    }
+
+    @media screen and (max-height: 840px) and (max-width: 1920) {
+      font-size: 37px;
     }
   }
 }

@@ -15,6 +15,7 @@ const Logo = () => {
         />
         <span className="logo__underline"></span>
         <svg
+          className="logo__time-to-play-img"
           width="246"
           height="36"
           viewBox="0 0 246 36"

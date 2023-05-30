@@ -7,15 +7,22 @@ import PulPayout from "./PulPayout";
 import PulButton from "./PulButton";
 
 const Side = ({ direction, gamers }) => {
-  const styles = {
-    backgroundImage: clsx(
-      direction === "up"
-        ? "url(assets/side-green.svg)"
-        : "url(assets/side-red.svg)"
-    ),
-  };
+  // const styles = {
+  //   backgroundImage: clsx(
+  //     direction === "up"
+  //       ? "url(assets/side-green.svg)"
+  //       : "url(assets/side-red.svg)"
+  //   ),
+  // };
   return (
-    <div className="team-side" style={styles}>
+    <div className="team-side">
+      <img
+        src={
+          direction === "up" ? "assets/side-green.svg" : "assets/side-red.svg"
+        }
+        alt="Background"
+        className="team-side__bg-image"
+      />
       <div className="team-side__container">
         <div className="team-side__header">
           <PulSize direction={direction} />
