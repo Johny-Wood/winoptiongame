@@ -5,6 +5,7 @@ import award from "@/assets/award-star.svg";
 import TimeSetButton from "./TimeSetButton";
 import GamesResultLink from "./GamesResultLink";
 import Graph from "./Graph";
+import BetControls from "./BetControls";
 
 const GraphBoardScreen = () => {
   return (
@@ -16,10 +17,6 @@ const GraphBoardScreen = () => {
           <TimeSetButton active={true}>2ч</TimeSetButton>
         </div>
 
-        {/* <div className="graph-board-screen__timer"> */}
-        {/*   <Timer /> */}
-        {/* </div> */}
-
         <div className="graph-board-screen__results-links">
           <GamesResultLink icon={crown}>Best of the week</GamesResultLink>
           <GamesResultLink icon={award}>Best of the month</GamesResultLink>
@@ -30,7 +27,9 @@ const GraphBoardScreen = () => {
         <Graph />
       </div>
 
-      <div className="graph-board-screen__make-bet graph-board-screen__container"></div>
+      <div className="graph-board-screen__make-bet graph-board-screen__container">
+        <BetControls />
+      </div>
     </div>
   );
 };

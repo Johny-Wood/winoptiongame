@@ -1,0 +1,24 @@
+.bet-counter {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 319px;
+  width: 100%;
+  background-image: url(/winoptiongame/assets/bet-counter.svg);
+  font-size: 39px;
+  color: #ffffff;
+
+  & .inc-dec-button {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    &--dark {
+      right: 0;
+      left: auto;
+      transform: translate(50%, -50%);
+    }
+  }
+}
