@@ -1,9 +1,10 @@
 .wallet-balance {
   position: relative;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 10px;
+  flex-direction: column;
+  // justify-content: space-between;
+  // align-items: flex-start;
+  gap: 18px;
   padding: 23px 33px 18px 63px;
   max-width: 908px;
   width: 100%;
@@ -15,8 +16,34 @@
   font-weight: 700;
   color: #ffffff;
 
+  &--deposit {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px dashed #918c83;
+    border-radius: 35px;
+    backdrop-filter: blur(4px);
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.63);
+    z-index: 2;
+  }
+
   @media screen and (max-width: 1560px) {
     padding-left: 33px;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+
+    &--center {
+      justify-content: center;
+    }
+
+    & .connect-wallet-btn {
+      max-width: 471px;
+    }
   }
 
   &__container {
@@ -24,6 +51,11 @@
     flex-direction: column;
     justify-content: space-between;
     row-gap: 18px;
+
+    &--full {
+      row-gap: 25px;
+      width: 100%;
+    }
 
     &--center {
       width: 100%;

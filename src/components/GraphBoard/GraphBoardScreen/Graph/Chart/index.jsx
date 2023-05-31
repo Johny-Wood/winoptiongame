@@ -206,6 +206,11 @@ const Chart = ({
           toOpacity={38}
           id="redish"
         />
+        <defs>
+          <clipPath id="reverse-trapezoid">
+            <polygon points="0,0 80,0 100,40 20,40" />
+          </clipPath>
+        </defs>
         <Group top={margin.top} left={margin.left}>
           <Group>
             <SplitLinePath
@@ -238,6 +243,7 @@ const Chart = ({
               cx={dateScale(getDate(data[data.length - 1]))}
               y={valueScale(getValue(segmentedData[1][0])) + 20}
               fill="url(#redish)"
+              // clipPath="url(#reverse-trapezoid)"
             />
           </Group>
         </Group>

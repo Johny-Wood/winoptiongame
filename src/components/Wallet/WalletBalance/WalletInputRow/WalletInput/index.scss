@@ -1,0 +1,73 @@
+.wallet-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 15px;
+  flex: 1;
+  padding: 20px;
+  max-width: 370px;
+  background-color: #333333;
+  border: 1px solid #818181;
+  border-radius: 16px;
+  font-size: 28px;
+
+  &--reverse {
+    & .wallet-input__container {
+      order: 2;
+    }
+
+    & .wallet-input__input {
+      text-align: left;
+    }
+  }
+
+  &--align-left {
+    & .wallet-input__input {
+      text-align: left;
+    }
+
+    & .wallet-input__container {
+      order: 2;
+    }
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+
+  &__dropdown-btn {
+    display: flex;
+  }
+
+  &__info {
+    display: flex;
+    align-self: flex-start;
+  }
+
+  &__input {
+    padding: 4px;
+    max-width: 206px;
+    width: 100%;
+    border: 0;
+    background-color: transparent;
+    caret-color: #67e1ba;
+    color: #f8ce74;
+    text-align: right;
+    text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.51);
+    -webkit-text-stroke: 1px #f5f5f5;
+
+    &:focus,
+    &:focus-visible {
+      outline: none;
+    }
+
+    &::placeholder {
+      text-shadow: none;
+      -webkit-text-stroke: 0;
+      font-weight: 400;
+      color: #6d6d6d;
+    }
+  }
+}

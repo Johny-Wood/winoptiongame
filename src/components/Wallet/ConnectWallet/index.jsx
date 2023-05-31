@@ -1,5 +1,5 @@
 import React from "react";
-import ConnectWalletBtn from "./ConnectWalletBtn";
+import WalletBtnBig from "./WalletBtnBig";
 import { useDispatch } from "react-redux";
 import { setWallet } from "../../../store/slices/userSlice";
 import getWallet from "../../../api/handlers/getWallet";
@@ -18,7 +18,7 @@ const ConnectWallet = () => {
 
   return (
     <>
-      <ConnectWalletBtn handleConnect={handleConnect} />
+      <WalletBtnBig handler={handleConnect}>Connect Wallet</WalletBtnBig>
     </>
   );
 };
