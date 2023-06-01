@@ -1,0 +1,56 @@
+[
+  {
+    "id": "0001",
+    "direction": "up",
+    "initialRate": "999999,99",
+    "finalRate": "999999,99"
+  },
+  {
+    "id": "0002",
+    "direction": "up",
+    "initialRate": "999999,99",
+    "finalRate": "999999,99"
+  },
+  {
+    "id": "0003",
+    "direction": "down",
+    "initialRate": "432423,99",
+    "finalRate": "1232135,99"
+  },
+  {
+    "id": "0004",
+    "direction": "down",
+    "initialRate": "553636,99",
+    "finalRate": "345378,99"
+  },
+  {
+    "id": "0005",
+    "direction": "up",
+    "initialRate": "675743,99",
+    "finalRate": "999999,99"
+  },
+  {
+    "id": "0006",
+    "direction": "up",
+    "initialRate": "999999,99",
+    "finalRate": "999999,99"
+  },
+  {
+    "id": "0007",
+    "direction": "up",
+    "initialRate": "999999,99",
+    "finalRate": "999999,99"
+  },
+  {
+    "id": "0008",
+    "direction": "up",
+    "initialRate": "999999,99",
+    "finalRate": "999999,99"
+  },
+  {
+    "id": "0009",
+    "direction": "up",
+    "initialRate": "999999,99",
+    "finalRate": "999999,99"
+  }
+]
