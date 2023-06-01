@@ -26,4 +26,15 @@
     height: 100%;
     z-index: 1;
   }
+
+  &__warning {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: #ffffff;
+    white-space: nowrap;
+    z-index: 1;
+  }
 }

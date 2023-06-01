@@ -7,18 +7,12 @@ import GraphBoardShape from "./GraphBoardShape";
 import GraphBoardScreen from "./GraphBoardScreen";
 
 const GraphBoard = () => {
+  const wallet = useSelector((state) => state.user.wallet);
   const coefficientUp = useSelector((state) => state.gameSession.coefficientUp);
   const coefficientDown = useSelector(
     (state) => state.gameSession.coefficientDown
   );
   const invest = useSelector((state) => state.invest.current);
-
-  const dispatch = useDispatch();
-
-  // Test
-  useEffect(() => {
-    // dispatch(setCurrentInvest(10));
-  }, []);
 
   return (
     <div className="graph-board">
@@ -35,6 +29,11 @@ const GraphBoard = () => {
       <div className="graph-board__screen">
         <GraphBoardScreen />
       </div>
+      {!wallet?.number && (
+        <p className="graph-board__warning">
+          Подключите кошелек что бы принять участие
+        </p>
+      )}
     </div>
   );
 };

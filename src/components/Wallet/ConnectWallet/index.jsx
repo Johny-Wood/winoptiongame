@@ -11,7 +11,6 @@ const ConnectWallet = () => {
   const handleConnect = () => {
     const requestWalletConnection = (async () => {
       const response = await getWallet();
-
       dispatch(setWallet(response));
     })();
   };
