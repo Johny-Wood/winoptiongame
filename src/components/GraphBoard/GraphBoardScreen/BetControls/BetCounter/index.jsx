@@ -1,11 +1,16 @@
 import React from "react";
 import "./index.scss";
 import IncDecButton from "./IncDecButton";
+import { useSelector } from "react-redux";
 
-const BetCounter = () => {
+const BetCounter = ({ value, handler }) => {
   return (
     <div className="bet-counter">
-      <IncDecButton>-</IncDecButton>0<IncDecButton dark={true}>+</IncDecButton>
+      <IncDecButton handler={handler}>-</IncDecButton>
+      {value}
+      <IncDecButton handler={handler} dark={true}>
+        +
+      </IncDecButton>
     </div>
   );
 };

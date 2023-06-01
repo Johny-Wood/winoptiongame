@@ -3,6 +3,9 @@ import "./index.scss";
 import Timer from "./Timer";
 
 const GraphBoardInfo = ({ invest, coefficientUp, coefficientDown }) => {
+  const potentialProfitUp = invest * coefficientUp;
+  const potentialProfitDown = invest * coefficientDown;
+
   return (
     <div className="graph-board-info">
       <div className="graph-board-info__container">
@@ -14,7 +17,7 @@ const GraphBoardInfo = ({ invest, coefficientUp, coefficientDown }) => {
         <div className="graph-board-info__potential-profit graph-board-info__content">
           <span className="graph-board-info__title">Потенциальный доход</span>
           <span className="graph-board-info__amount graph-board-info__amount--green">
-            {invest && invest * coefficientUp}
+            {invest && potentialProfitUp.toFixed(2)}
           </span>
         </div>
       </div>
@@ -32,7 +35,7 @@ const GraphBoardInfo = ({ invest, coefficientUp, coefficientDown }) => {
         <div className="graph-board-info__potential-profit graph-board-info__content">
           <span className="graph-board-info__title">Потенциальный доход</span>
           <span className="graph-board-info__amount graph-board-info__amount--red">
-            {invest && invest * coefficientDown}
+            {invest && potentialProfitDown.toFixed(2)}
           </span>
         </div>
       </div>

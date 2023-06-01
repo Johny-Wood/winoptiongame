@@ -17,7 +17,7 @@ const GraphBoard = () => {
 
   // Test
   useEffect(() => {
-    dispatch(setCurrentInvest(10));
+    // dispatch(setCurrentInvest(10));
   }, []);
 
   return (
