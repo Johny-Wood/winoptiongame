@@ -1,13 +1,14 @@
 import React from "react";
 import "./index.scss";
 import BetCounter from "./BetCounter";
+import EdgeValueButton from "./BetCounter/EdgeValueButton";
 
 const BetControls = () => {
   return (
     <div className="bet-controls">
-      {/* MINbutton */}
+      <EdgeValueButton dark={true}>MIN</EdgeValueButton>
       <BetCounter />
-      {/* MAXbutton */}
+      <EdgeValueButton>MAX</EdgeValueButton>
     </div>
   );
 };
